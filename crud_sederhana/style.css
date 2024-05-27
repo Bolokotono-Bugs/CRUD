@@ -1,0 +1,33 @@
+form input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid red;
+}
+form button {
+    padding: 10px;
+    background-color: aqua;
+    color: aliceblue;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.add_div {
+    width: 100%;
+    padding: 10px 0px 0px 90px;
+}
+.add_div button {
+    padding: 8px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 7px;
+}
+.add_div button:hover {
+    background-color: rgb(28, 229, 28);
+}
+table {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.update_form, .create_form {
+    display: none;
+}
